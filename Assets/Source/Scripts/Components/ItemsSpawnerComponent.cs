@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityTools;
 using UnityTools.Extentions;
@@ -45,6 +44,6 @@ public class ItemsSpawnerComponent : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawWireCube(_spawnOrigin.position, new Vector3(_spawnArea.x*2, 1, _spawnArea.y*2));
+        Gizmos.DrawWireCube(_spawnOrigin.position, new Vector3(_spawnArea.x * 2, 1, _spawnArea.y * 2));
     }
 }

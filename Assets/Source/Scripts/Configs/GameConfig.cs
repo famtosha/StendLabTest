@@ -13,7 +13,7 @@ public class GameConfig : ScriptableObject
     [field: SerializeField] public float cubeMoveOffset { get; private set; }
     [field: SerializeField] public float cubeJumpDuration { get; private set; }
 
-    [field:Header("Items spawn")]
+    [field: Header("Items spawn")]
     [field: SerializeField] public Vector2 objectSizeRange { get; private set; }
     [field: SerializeField] public float spawnDelay { get; private set; }
     [field: SerializeField] public List<GameObject> objectsToSpawn { get; private set; }
