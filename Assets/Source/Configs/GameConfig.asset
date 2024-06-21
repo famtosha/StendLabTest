@@ -13,3 +13,14 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   <interactionRange>k__BackingField: 1.5
+  <cameraTransitionDuration>k__BackingField: 0.5
+  <cubeJumpForce>k__BackingField: 1
+  <cubeMoveOffset>k__BackingField: 0.25
+  <cubeJumpDuration>k__BackingField: 0.25
+  <objectSizeRange>k__BackingField: {x: 0.1, y: 0.4}
+  <spawnDelay>k__BackingField: 0.5
+  <objectsToSpawn>k__BackingField:
+  - {fileID: 7625561566819912976, guid: 6bcb57d7aed96b146a3b17228bda1e91, type: 3}
+  - {fileID: 6258857544767865999, guid: ef11d585e084bdd439fca78c633e9910, type: 3}
+  - {fileID: 3960270727027927371, guid: 5fd1c7abd0bcf8a459a92e2a99da2025, type: 3}
+  - {fileID: 1243897145064107160, guid: 0b00d8dedd803d34b9b703d90f7d02ff, type: 3}

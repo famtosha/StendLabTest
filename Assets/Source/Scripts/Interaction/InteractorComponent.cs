@@ -36,6 +36,7 @@ public class InteractorComponent : MonoBehaviour
             if (_pointedInteraction != null && interactionButtonPressed)
             {
                 _activeInteraction = _pointedInteraction;
+                _activeInteraction.SetState(true);
                 _activeInteraction.SetOutlineState(false);
                 _controller.enabled = false;
                 _controller.playerCamera.transform.DoTransform(_activeInteraction.targetCameraPoint, _config.cameraTransitionDuration);
@@ -52,6 +53,7 @@ public class InteractorComponent : MonoBehaviour
                     .OnComplete(() =>
                     {
                         _activeInteraction.SetOutlineState(true);
+                        _activeInteraction.SetState(false);
                         _activeInteraction = null;
                         _controller.enabled = true;
                     });
